@@ -1,0 +1,17 @@
+<!-- views/about.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <!-- Include the navbar partial from the "partials" folder -->
+  <%- include('partials/navbar') %>
+
+  <h1>About <%= topic %></h1>
+  <p>Current time: <%= currentDate %></p>
+  <p><%= info %></p>
+  
+</body>
+</html>
